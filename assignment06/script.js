@@ -20,4 +20,16 @@ function primitiveMultiply(a, b) {
 
 function reliableMultiply(a, b) {
   // Your code here.
-}
+  // we have to do a while loop so that if the code fails, it will allow us to keep trying to debug the correct code
+  while(true) {
+    // then we add a try catch statement. the "try" will try out the code and the "catch" will catch the error
+    try {
+      // this part is an example of an error
+      return primitiveMultiply(5, 6);
+      // this will catch the error
+    } catch (error) {
+      
+    }
+    )
+
+  }
